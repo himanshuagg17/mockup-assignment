@@ -1,8 +1,10 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 #nav{
     display: flex;
@@ -34,7 +36,7 @@
 h1{
     font-size: 90px;
     padding: 2px 0px 5px 4px;
-    
+    color: lightgrey;
 }
 
 h2{
@@ -164,15 +166,20 @@ h4{
     height: 600px;
     position: relative;
     background-color: white;
-   
+    
 
 }
-
+/* #introduction>div:nth-child(1){
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+} */
 
 #intro-image>img{
     width: 100%;
     position: relative;
-    left: 300px;
+    left: 400px;
     
    
 }
@@ -201,4 +208,71 @@ h4{
     padding: 5px;
     width: 98%;
    
+}
+
+#footer{
+display: flex;
+justify-content: space-around;
+background-color: #30318B;
+padding: 140px;
+padding-bottom: 40px;
+
+}
+#footer>ul>h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    
+}
+#footer ul{
+    list-style: none;
+    word-wrap: break-word;
+    word-break: inherit;
+    
+}
+#footer li{
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+#footer-2{
+    background-color: #0185D7;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    height: 50px;
+}
+
+#ideas{
+    display: flex;
+    padding: 60px;
+    gap: 20px;
+}
+
+#idea-text{
+    text-align: center;
+    font-size: 28px;
+    color: #30318C;
+}
+#idea-text2{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#introduction{
+    position: relative;
+    top: -420px;
+    margin-bottom: -400px;
+    background-color: white;
+}
+
+#intro-text{
+    position: relative;
+    top: 360px;
+    left: 50px;
+    background-color: white;
+    z-index: 1;
+    opacity: 0.7;
 }
